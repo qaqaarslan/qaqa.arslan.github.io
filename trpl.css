@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+*{
+    font-family: Poppins;
+}
+body{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image:url(https://e1.pxfuel.com/desktop-wallpaper/487/583/desktop-wallpaper-coat-of-arms-of-ottoman-empire-abstract-by-alienda13-on-ottoman-empire.jpg);
+   background-position: top;
+   background-size: 1100px;
+   background-position-y: -70px;
+}
+
+body .form-login{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*padding-top itu menjarakkan kke atas pada kolom perintah tersebut*/
+    border-radius: 20px;
+    /*border-radius itu menumpulkan suatu kolom (lengkungan kolom))*/
+}
+
+body .form-login h3{
+    text-align: center;
+    
+}
+
+body .form-login input{
+    margin-bottom: 10px;
+    /*margin itu menjarakkan antara suatu kolom atau sesuatu kepada kolom atau sesuatu yang lain.*/
+    padding-left: 20px;
+    /*padding itu menjarakkan dalam kolom tersebut kepada sesuatu*/
+    width: 400px;
+    /*menambahkan ukuran kesampang kolom menjadi lebih panjang*/
+    height: 40px;
+    /*kebalikkan dari width. Namun kalau yang ini keatas*/
+    font-weight: bold;
+}
+
+body .form-login p{
+    text-align: right;
+    /*Membuat/memindahkan tulisan bisa ke kanan ataupun ke  kiri*/
+    margin-top: -10px;
+}
+
+body .form-login p .lupapassword{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    font-weight: 400px;
+}
+body .form-login .loginbtn{
+    background-color: blue;
+    width: 100%;
+    border: opx;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+body .form-login .loginbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+body .form-login .regis{
+    background-color: darkgreen;
+    width: 100%;
+    border: opx;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
